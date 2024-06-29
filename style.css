@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#tasks {
+    margin-top: 20px;
+}
+
+.task {
+    background: white;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.task h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.task p {
+    margin: 5px 0;
+    padding: 0;
+}
+
+.task .status {
+    font-weight: bold;
+}
+
+.not-started {
+    color: red;
+}
+
+.in-progress {
+    color: orange;
+}
+
+.completed {
+    color: green;
+}

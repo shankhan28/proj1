@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task Management</h1>
+        <form id="taskForm">
+            <input type="text" id="taskName" placeholder="Task Name" required>
+            <input type="text" id="category" placeholder="Category" required>
+            <input type="date" id="deadline" required>
+            <input type="text" id="priority" placeholder="Priority" required>
+            <input type="text" id="label" placeholder="Label" required>
+            <select id="status">
+                <option value="Not Started">Not Started</option>
+                <option value="In Progress">In Progress</option>
+                <option value="Completed">Completed</option>
+            </select>
+            <button type="submit">Add Task</button>
+        </form>
+        <div id="tasks"></div>
+    </div>
+    <script src="/script.js"></script>
+</body>
+</html>
